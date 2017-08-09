@@ -3,7 +3,6 @@
 DisplayStrings = (
 "v := 1",
 "::/period_period.liga ...",
-../question_period.liga,
 v,
 "...?.?:",
 "v|rrv",
@@ -13,9 +12,11 @@ v,
 "t/colon_equal.liga 1",
 and,
 "&",
-and,
 /ampersand_ampersand.liga,
-/bar_bar.liga
+/bar_bar.liga,
+/colon_colon_equal.liga,
+/colon_colon.liga,
+/period_period_period.liga
 );
 classes = (
 {
@@ -1737,7 +1738,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub colon colon by colon_colon.liga;\012sub colon equal by colon_equal.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub period period period by period_period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub ampersand ampersand by ampersand_ampersand.liga;\012sub bar bar by bar_bar.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
+code = "sub exclam equal by exclam_equal.liga;\012sub equal equal by equal_equal.liga;\012sub colon colon by colon_colon.liga;\012sub colon colon equal by colon_colon_equal.liga;\012sub colon equal by colon_equal.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub period period by period_period.liga;\012sub period period period by period_period_period.liga;\012sub question colon by question_colon.liga;\012sub question period by question_period.liga;\012sub ampersand ampersand by ampersand_ampersand.liga;\012sub bar bar by bar_bar.liga;\012sub minus greater by minus_greater.liga;\012sub equal greater by equal_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater greater by greater_greater.liga;\012sub less hyphen by less_hyphen.liga;\012sub less equal by less_equal.liga;\012sub less less by less_less.liga;\012";
 name = liga;
 }
 );
@@ -82777,6 +82778,26 @@ width = 2466;
 );
 },
 {
+glyphname = colon_colon_equal.liga;
+lastChange = "2017-08-09 20:32:45 +0000";
+layers = (
+{
+components = (
+{
+name = equal;
+transform = "{1, 0, 0, 1, 1902, -38}";
+},
+{
+name = colon_colon.liga;
+transform = "{1, 0, 0, 1, -69, -12}";
+}
+);
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+width = 3699;
+}
+);
+},
+{
 glyphname = colon_equal.liga;
 lastChange = "2017-06-01 15:57:15 +0000";
 layers = (
@@ -83386,5 +83407,5 @@ manufacturer = "Aleksandr Nosov";
 manufacturerURL = "https://github.com/nosovae-dev/Jack";
 unitsPerEm = 2048;
 versionMajor = 0;
-versionMinor = 1;
+versionMinor = 2;
 }
