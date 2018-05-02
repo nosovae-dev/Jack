@@ -14,9 +14,7 @@ and,
 "&",
 /ampersand_ampersand.liga,
 /bar_bar.liga,
-/colon_colon_equal.liga,
-/colon_colon.liga,
-/period_period_period.liga
+/exclam_equal_equal.liga
 );
 classes = (
 {
@@ -82816,6 +82814,44 @@ layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
 width = 2466;
 }
 );
+},
+{
+glyphname = exclam_equal_equal.liga;
+lastChange = "2018-05-02 11:32:31 +0000";
+layers = (
+{
+layerId = "C8600398-8A20-4DEB-92AF-E95853BEE82A";
+paths = (
+{
+closed = 1;
+nodes = (
+"3259 930 LINE",
+"1483 930 LINE",
+"1686 1264 LINE",
+"1541 1352 LINE",
+"1284 930 LINE",
+"87 930 LINE",
+"87 760 LINE",
+"1181 760 LINE",
+"1037 524 LINE",
+"87 524 LINE",
+"87 352 LINE",
+"933 352 LINE",
+"761 70 LINE",
+"907 -19 LINE",
+"1132 352 LINE",
+"3252 352 LINE",
+"3252 524 LINE",
+"1237 524 LINE",
+"1380 760 LINE",
+"3259 760 LINE"
+);
+}
+);
+width = 3363;
+}
+);
+note = exclam_equal.liga;
 },
 {
 color = 6;
